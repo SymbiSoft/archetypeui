@@ -1,5 +1,5 @@
 === 1.1.3 flags module ===
- Module *flags* contains flags defining varius modes of the user interface elements' formating.
+ {{{}}}*flags* module contains flags defining varius modes of the user interface elements' formating.
 *PORTRAIT*
  Element in portrait orientation.
 *ROTATE_TO_LEFT*
