@@ -1,5 +1,6 @@
 = Select language / Выберите язык =
 [http://code.google.com/p/archetypeui/wiki/110_en http://archetypeui.googlepages.com/english.png]
-== ENGLISH ==<br><br>
+== ENGLISH ==
+<br><br>
 [http://code.google.com/p/archetypeui/wiki/110_ru http://archetypeui.googlepages.com/russia.png]
 == РУССКИЙ ==
