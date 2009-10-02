@@ -8,6 +8,7 @@
 
 *text* -  a text which will be output;
 For more information about parser's work, look GTextParser module's description.
+
 At _*GTextParser.Parser*_ creating it is needed to leave _*calc_auto*_ argument value on-default (i.e. _*0*_) and to call *Parser.Calcsets()* method after *TextDraw* object was created.
 
 *size*
