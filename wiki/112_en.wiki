@@ -5,9 +5,11 @@
 *Parser*
  A _*GTextParser.Parser*_ object, where
 *cloth* - a canvas which will be used for drawing;
+
 *text* -  a text which will be output;
 For more information about parser's work, look GTextParser module's description.
 At _*GTextParser.Parser*_ creating it is needed to leave _*calc_auto*_ argument value on-default (i.e. _*0*_) and to call *Parser.Calcsets()* method after *TextDraw* object was created.
+
 *size*
  The optional parameter. A tuple consisted of two integers meaning area sizes (in pixels) on witch text will be drawn. Setting to *size* the value of _*None*_ is equal to setting of a *bg* size. On-default the *size* value is set as _*None*_.
 *bg*
