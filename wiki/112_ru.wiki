@@ -1,7 +1,7 @@
 === 1.1.2 Модуль TextPro ===
  Модуль *TextParser* является текстовым процессором, служит для добавления разнообразных эффектов форматирования при выводе текста на графике. Работа модуля *TextParser* находится в тесном взаимодействии с модулем *GTextParser*.
 *Класс TextDraw(Parser, size = None, bg = None, bg_offset = (0, 0), text_offset = (0, 0), text_color = 0x0, shadow_offset = (0, 0), shadow_color = 0xffff, scroll = (0, 4), Draw_callback = lambda: None, rotate = 0, align = 4)*
- Создаёт объект TextDraw.
+ Создаёт объект *TextDraw*.
 *Parser*
  Объект _*GTextParser.Parser*_ где,
 *cloth* - холст, на котором будет производится рисование;
