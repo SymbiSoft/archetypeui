@@ -1,5 +1,5 @@
 === 1.1.2 TextPro module ===
- *TextParser* module is the text processor, it is used for adding of varius formatting effects at text output on graphics. The work of *TextParser* module is closely connected with *GTextParser* module.
+*TextParser* module is the text processor, it is used for adding of varius formatting effects at text output on graphics. The work of *TextParser* module is closely connected with *GTextParser* module.
 *Class TextDraw(Parser, size = None, bg = None, bg_offset = (0, 0), text_offset = (0, 0), text_color = 0x0, shadow_offset = (0, 0), shadow_color = 0xffff, scroll = (0, 4), Draw_callback = lambda: None, rotate = 0, align = 4)*
  Creates a TextDraw object.
 *Parser*
@@ -31,7 +31,8 @@ At _*GTextParser.Parser*_ creating it is needed to leave _*calc_auto*_ argument 
 *align*
  The optional parameter. A flag defining the text alignment relatively of backgroud. On-default the *align* value is set as _*ALIGN_LEFT*_. The *flags* module contains descriptions of all flags.
 === Тип TextDraw ===
-=== Instances of TextDraw type have the following attributes: ===
+*Instances of TextDraw type have the following attributes:*
+
 *Parser*
  A GTextParser.Parser object, where
 *cloth* - a canvas on which a drawing will be made;
@@ -40,7 +41,8 @@ At _*GTextParser.Parser*_ creating it is needed to leave _*calc_auto*_ argument 
 
 *size*
  A tuple consisted of two integers meaning area sizes (in pixels) on witch text will be drawn. Setting to size the value of None is equal to setting of a bg size. After changing of the size value it is necessary to call Parser.Calssets() method.
-For example,{{{
+For example,
+{{{
 from ArchetypeUI.GUI import *
 from ArchetypeUI.GUI.flags import *
 from graphics import *
@@ -56,6 +58,7 @@ tp.size = (120, 320)
 gt.Calcsets()
 tp.Draw()
 }}}
+
 *bg*
  A _*graphics.Image*_ object or some other analog object. Setting to *bg* the value of _*None*_ is equal to setting of a *Parser.cloth* copy. Read and write.
 *bg_offset*
@@ -74,7 +77,8 @@ tp.Draw()
  A calling object (function) whitch is called by the *Draw()* method after every text drawing. Read and write.
 *rotate*
  A flag defining the text rotation. The *flags* module contains descriptions of all flags. After changing of the *rotate* value it is necessary to call *Parser.Calssets()* method. Read and write.
-Например,{{{
+Например,
+{{{
 from ArchetypeUI.GUI import *
 from ArchetypeUI.GUI.flags import *
 from graphics import *
@@ -87,9 +91,11 @@ tp.rotate = ROTATE_TO_LEFT
 gt.Calcsets()
 tp.Draw()
 }}}
+
 *align*
  A flag defining the text alignment relatively of backgroud. The *flags* module contains descriptions of all flags.
-=== Instances of TextDraw type have the following methods: ===
+*Instances of TextDraw type have the following methods:*
+
 *Draw(direction = 0, repeat = 1)*
  Draws text on the *Parser.cloth* canvas according to given parameters. Makes a step at one string forward if *direction* has value _*1*_ or at one string back if *direction* has vakue _*-1*_, and then redraws the text.  Если *direction* имеет значение _*1*_ то происходит рисование с  переходом на строку вперед, если _*-1*_ - на строку назад. A calling of the method with *direction* value of _*0*_ redraws the text according to current *Parser.string_list* content.
 The calling repeats such number of times, whitch given in *repeat*.
