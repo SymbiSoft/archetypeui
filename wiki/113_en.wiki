@@ -1,0 +1,16 @@
+=== 1.1.3 flags module ===
+ *flags* module contains flags defining varius modes of the user interface elements' formating.
+*PORTRAIT*
+ Element in portrait orientation.
+*ROTATE_TO_LEFT*
+ Element rotated at _*90°*_ to left.
+*ROTATE_TO_RIGHT*
+ Element rotated at _*90°*_ to right.
+*ROTATE_TOP_TO_BOTTOM*
+ Element rotated at *180°*.
+*ALIGN_LEFT*
+ Element aligned to the left side.
+*ALIGN_RIGHT*
+ Element aligned to the right side.
+*CENTER*
+ Element aligned to the center.
