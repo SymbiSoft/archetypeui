@@ -1,7 +1,7 @@
 #labels Featured
 = Select language / Выберите язык =
-[http://code.google.com/p/archetypeui/wiki/contents_en http://archetypeui.googlepages.com/english.png]
+[http://code.google.com/p/archetypeui/wiki/contents_en http://pic.ipicture.ru/uploads/091211/41552/Y73Kjvu661.png]
 == ENGLISH ==
 <br><br>
-[http://code.google.com/p/archetypeui/wiki/contents_ru http://archetypeui.googlepages.com/russia.png]
+[http://code.google.com/p/archetypeui/wiki/contents_ru http://pic.ipicture.ru/uploads/091211/41552/zOUPw6Rg2S.png]
 == РУССКИЙ ==
