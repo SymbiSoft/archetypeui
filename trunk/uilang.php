@@ -2,6 +2,8 @@
 
 class UILang {
     private $ini;
+    private $defolt;
+    private $de;
 
     function __construct($ini) {
         $this->ini = $ini;
